@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Alata', sans-serif;
+}
+
+body {
+    background-color: #52575d;
+}
+
+.navContainer {
+    background-color: #41444b;
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navContainer .logo {
+    margin-left: 1rem;
+    color: #fddb3a;
+    cursor: pointer;
+}
+
+.navContainer .logo:hover {
+    background-color: #fddb3a;
+    color: aliceblue;
+}
+
+.navContainer .linksArea ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navContainer .linksArea ul li {
+    margin-right: 1rem;
+    background-color: #52575d;
+    padding: 6px 8px;
+}
+
+.navContainer .linksArea ul li a {
+    color: #f6f4e6;
+    text-decoration: none;
+}
